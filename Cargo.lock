@@ -588,19 +588,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "safe-dash"
-version = "0.1.0"
-dependencies = [
- "futures",
- "linemux",
- "rand",
- "structopt",
- "termion",
- "tokio",
- "tui",
-]
-
-[[package]]
 name = "same-file"
 version = "1.0.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -733,6 +720,19 @@ name = "unicode-xid"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f7fe0bb3479651439c9112f72b6c505038574c9fbb575ed1bf3b797fa39dd564"
+
+[[package]]
+name = "vaultdash"
+version = "0.1.0"
+dependencies = [
+ "futures",
+ "linemux",
+ "rand",
+ "structopt",
+ "termion",
+ "tokio",
+ "tui",
+]
 
 [[package]]
 name = "vec_map"

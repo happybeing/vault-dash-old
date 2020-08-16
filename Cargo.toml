@@ -1,7 +1,14 @@
 [package]
-name = "safe-dash"
+name = "vaultdash"
 version = "0.1.0"
+description = "Terminal dashboard for monitoring SAFE Network vaults"
 authors = ["Mark <git@happybeing.com>"]
+license = "GPL-3.0"
+homepage = "https://github.com/theWebalyst/vault-dash"
+repository = "https://github.com/theWebalyst/vault-dash"
+readme = "README.md"
+keywords = ["utility", "safenetwork", "vault", "terminal", "dashboard", "monitor", "cli"]
+categories = ["command-line-utilities", "safe-network"]
 edition = "2018"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
